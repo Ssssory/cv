@@ -1,0 +1,76 @@
+@import url('https: //fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+html {
+    font-family: 'Open Sans';
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: #000;
+
+}
+
+body {
+    background-color: rgb(218, 218, 218);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+section {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+.profile a {
+    font-weight: 300;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 0px;
+    line-height: 1em;
+}
+
+.qualifications ul{
+    list-style: none;
+    margin-bottom: 0px;
+}
+.stack li {
+    list-style-type: none;
+}
+.stack ul li:before {
+    content: "🔧 ";
+}
+ul {
+    margin-bottom: 0px;
+}
+li>span{
+    font-weight: 900;
+    margin-right: 0.5em;
+}
+
+.item{
+    font-size: 1em;
+}
+.item p {
+    margin: 0px;
+}
+.item ul {
+    margin-top: 0px;
+}
